@@ -1,7 +1,7 @@
 import { FunctionComponent } from "react";
 import { Link } from "react-router-dom";
 
-const Landing: FunctionComponent = () => {
+const Header: FunctionComponent = () => {
   return (
     <header>
       <nav className="">
@@ -30,4 +30,4 @@ const Landing: FunctionComponent = () => {
   );
 };
 
-export default Landing;
+export default Header;

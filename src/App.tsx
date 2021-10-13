@@ -1,7 +1,7 @@
 import { StrictMode } from "react";
 import { render } from "react-dom";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Landing from "./Landing";
+import Landing from "./Containers/Landing";
 
 const App = () => {
   return (
