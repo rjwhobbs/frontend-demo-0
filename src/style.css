@@ -5,6 +5,10 @@
 @layer components {
 }
 
+/* html {
+  font-size: 18px;
+} */
+
 .visually-hidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -15,4 +19,8 @@
   position: absolute;
   width: 1px;
   white-space: nowrap; /* 1 */
+}
+
+.bg-img {
+  background-image: url("../public/images/image-header.jpg");
 }
