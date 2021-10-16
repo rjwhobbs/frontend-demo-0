@@ -20,7 +20,3 @@
   width: 1px;
   white-space: nowrap; /* 1 */
 }
-
-.bg-img {
-  background-image: url("../public/images/image-header.jpg");
-}
