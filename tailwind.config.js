@@ -12,7 +12,11 @@ module.exports = {
       sans: ["Barlow", "sans-serif"],
       serif: ["Fraunces", "serif"],
     },
-    extend: {},
+    extend: {
+      colors: {
+        "desat-blue": "#23303e",
+      },
+    },
   },
   variants: {
     extend: {},
