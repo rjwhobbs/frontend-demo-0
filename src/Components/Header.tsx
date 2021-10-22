@@ -46,24 +46,24 @@ const Header: FunctionComponent = () => {
               }`}
             >
               <li className="mb-4">
-                <Link to="#" className="text-dark-blue text-lg">
+                <Link to="#" className="nav-link-mob">
                   About
                 </Link>
               </li>
               <li className="mb-4">
-                <Link to="#" className="text-dark-blue text-lg">
+                <Link to="#" className="nav-link-mob">
                   Services
                 </Link>
               </li>
               <li className="mb-4">
-                <Link to="#" className="text-dark-blue text-lg">
+                <Link to="#" className="nav-link-mob">
                   Projects
                 </Link>
               </li>
-              <li className="bg-sun-yellow flex rounded-full">
+              <li className="active:bg-dark-yellow hover:bg-dark-yellow bg-sun-yellow flex rounded-full">
                 <Link
                   to="#"
-                  className="font-serif uppercase text-desat-blue text-lg py-4 px-7"
+                  className="font-serif uppercase text-desat-blue active:text-black hover:text-black text-lg py-4 px-7"
                 >
                   Contact
                 </Link>
@@ -86,25 +86,22 @@ const Header: FunctionComponent = () => {
             </Link>
           </li>
           <li className="mr-12">
-            <Link to="#" className="text-white text-lg">
+            <Link to="#" className="nav-link-dt">
               About
             </Link>
           </li>
           <li className="mr-12">
-            <Link to="#" className="text-white text-lg">
+            <Link to="#" className="nav-link-dt">
               Services
             </Link>
           </li>
           <li className="mr-12">
-            <Link to="#" className="text-white text-lg">
+            <Link to="#" className="nav-link-dt">
               Projects
             </Link>
           </li>
-          <li className="bg-white flex rounded-full">
-            <Link
-              to="#"
-              className="font-serif uppercase text-desat-blue text-lg py-4 px-7"
-            >
+          <li className="bg-white duration-200 text-desat-blue hover:text-white hover:bg-light-blue flex rounded-full">
+            <Link to="#" className="font-serif uppercase text-lg py-4 px-7">
               Contact
             </Link>
           </li>

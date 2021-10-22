@@ -3,8 +3,12 @@
 @tailwind utilities;
 
 @layer components {
-  .triangle-pos {
-    @apply ml-auto;
+  .nav-link-dt {
+    @apply pb-1 duration-100 border-transparent border-b-4 hover:border-white text-white text-lg;
+  }
+
+  .nav-link-mob {
+    @apply text-dark-blue text-lg pb-1 duration-100 border-transparent border-b-4 hover:border-dark-blue active:border-desat-blue active:text-desat-blue;
   }
 }
 

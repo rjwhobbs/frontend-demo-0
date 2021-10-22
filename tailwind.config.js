@@ -17,6 +17,8 @@ module.exports = {
         "desat-blue": "#23303e",
         "sun-yellow": "#fad400",
         "dark-blue": "#19536b",
+        "light-blue": "#69c5ff",
+        "dark-yellow": "#EBC700",
       },
       height: {
         100: "100rem",
@@ -36,7 +38,11 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      textColor: ["active"],
+      backgroundColor: ["active"],
+      borderColor: ["active"],
+    },
   },
   plugins: [],
 };
