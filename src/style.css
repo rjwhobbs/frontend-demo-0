@@ -57,3 +57,13 @@
   top: -7%;
   right: 0;
 }
+
+.learn-more-line {
+  height: 9px;
+  background-color: #fdf19e;
+  width: 133px;
+  transform: translate(-3px, -10px);
+  position: relative;
+  z-index: 0;
+  border-radius: 9999px;
+}
