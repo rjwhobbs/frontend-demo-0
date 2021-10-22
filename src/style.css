@@ -3,11 +3,18 @@
 @tailwind utilities;
 
 @layer components {
+  .triangle-pos {
+    @apply ml-auto;
+  }
 }
 
-/* html {
-  font-size: 18px;
-} */
+.triangle {
+  width: 0;
+  height: 0;
+  border-right: 20px solid white;
+  border-bottom: 20px solid transparent;
+  transform: rotate(90deg);
+}
 
 .visually-hidden {
   border: 0;
@@ -18,5 +25,31 @@
   padding: 0;
   position: absolute;
   width: 1px;
-  white-space: nowrap; /* 1 */
+  white-space: nowrap;
+}
+
+.dropdown {
+  visibility: hidden;
+  opacity: 0.3;
+  transform: rotateX(-90deg);
+  transform-origin: top center;
+  transition: 0.2s all ease-out;
+}
+
+.dropdown.open {
+  visibility: visible;
+  opacity: 1;
+  transform: rotateX(0deg);
+}
+
+.dropdown::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-right: 20px solid white;
+  border-bottom: 20px solid transparent;
+  transform: rotate(90deg);
+  position: absolute;
+  top: -7%;
+  right: 0;
 }

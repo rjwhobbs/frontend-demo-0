@@ -15,6 +15,11 @@ module.exports = {
     extend: {
       colors: {
         "desat-blue": "#23303e",
+        "sun-yellow": "#fad400",
+        "dark-blue": "#19536b",
+      },
+      height: {
+        100: "100rem",
       },
     },
   },
