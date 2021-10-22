@@ -18,7 +18,10 @@ module.exports = {
         "sun-yellow": "#fad400",
         "dark-blue": "#19536b",
         "light-blue": "#69c5ff",
-        "dark-yellow": "#EBC700",
+        "dark-yellow": "#ebc700",
+        "dark-grey": "#5a636c",
+        "off-white": "#fffaf6",
+        "grey-blue": "#57545F",
       },
       height: {
         100: "100rem",
@@ -28,6 +31,7 @@ module.exports = {
       },
       fontSize: {
         "11vw": "11vw",
+        "4.5xl": "2.5rem",
       },
       lineHeight: {
         initial: "initial",
