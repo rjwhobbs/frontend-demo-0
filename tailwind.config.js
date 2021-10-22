@@ -21,6 +21,18 @@ module.exports = {
       height: {
         100: "100rem",
       },
+      inset: {
+        "43vw": "43vw",
+      },
+      fontSize: {
+        "11vw": "11vw",
+      },
+      lineHeight: {
+        initial: "initial",
+      },
+      margin: {
+        "7vw": "7vw",
+      },
     },
   },
   variants: {

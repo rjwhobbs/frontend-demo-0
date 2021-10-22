@@ -4,7 +4,7 @@ import BrandDescription from "../Components/LandingComps/BrandDescription";
 import ProdDescription from "../Components/LandingComps/ProdDescription";
 import Testimonials from "../Components/LandingComps/Testimonials";
 import Footer from "../Components/Footer";
-import MainHeading from "../Components/LandingComps/MainHeading";
+import MainTitle from "../Components/LandingComps/MainTitle";
 
 const content = [
   "We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.",
@@ -23,7 +23,7 @@ const Landing: FunctionComponent = () => {
   return (
     <div className="container xl:container mx-auto relative">
       <Header></Header>
-      <MainHeading></MainHeading>
+      <MainTitle></MainTitle>
       <BrandDescription
         heading={"Transform your brand"}
         content={content[0]}

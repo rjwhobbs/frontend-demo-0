@@ -15,7 +15,7 @@ const Header: FunctionComponent = () => {
   return (
     <header className="relative">
       <nav className="block lg:hidden absolute top-0 px-10 w-full">
-        <ul className="mt-10 flex items center justify-between">
+        <ul className="mt-10 flex items-center justify-between">
           <li>
             <Link className="" to="/">
               <img
