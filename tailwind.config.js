@@ -12,6 +12,14 @@ module.exports = {
       sans: ["Barlow", "sans-serif"],
       serif: ["Fraunces", "serif"],
     },
+    screens: {
+      xs: "370px",
+      sm: "640px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px",
+      "2xl": "1536px",
+    },
     extend: {
       colors: {
         "desat-blue": "#23303e",
@@ -41,6 +49,7 @@ module.exports = {
       },
       margin: {
         "7vw": "7vw",
+        "8vw": "8vw",
       },
       order: {
         unset: "unset",
