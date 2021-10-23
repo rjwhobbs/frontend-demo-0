@@ -107,13 +107,10 @@ const Header: FunctionComponent = () => {
           </li>
         </ul>
       </nav>
-      <img
-        className=""
-        srcSet={`${headerMImg as string} 750w, ${headerDTImg as string} 2880w`}
-        sizes="(max-width: 640px) 750px, 2880px"
-        src={headerDTImg as string}
-        alt="sliced orange"
-      />
+      <picture>
+        <source media="(min-width: 640px)" srcSet={headerDTImg as string} />
+        <img src={headerMImg as string} alt="" />
+      </picture>
     </header>
   );
 };

@@ -1,7 +1,7 @@
 export interface DesProps {
   heading: string;
   content: string;
-  margin?: string;
+  placement?: string;
 }
 
 export interface TestimonialsProps {

@@ -2,8 +2,10 @@ import { FunctionComponent } from "react";
 import BrandDescription from "./BrandDescription";
 import ProdDescription from "./ProdDescription";
 
-import transformImg from "url:../../../public/images/desktop/image-transform.jpg";
-import standOutImg from "url:../../../public/images/desktop/image-stand-out.jpg";
+import transformDTImg from "url:../../../public/images/desktop/image-transform.jpg";
+import standOutDTImg from "url:../../../public/images/desktop/image-stand-out.jpg";
+import transformMobImg from "url:../../../public/images/mobile/image-transform.jpg";
+import standOutMobImg from "url:../../../public/images/mobile/image-stand-out.jpg";
 
 const content = [
   "We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.",
@@ -14,18 +16,32 @@ const content = [
 
 const BrandDescriptionCon: FunctionComponent = () => {
   return (
-    <div className="grid grid-cols-2">
+    <div className="grid grid-cols-1 sm:grid-cols-2">
       <BrandDescription
         heading={"Transform your brand"}
         content={content[0]}
-        margin={"ml"}
+        placement={"left"}
       ></BrandDescription>
-      <img className="w-full" src={transformImg as string} alt="egg" />
-      <img className="w-full" src={standOutImg as string} alt="egg" />
+      <picture className="order-first sm:order-unset">
+        <source media="(min-width: 640px)" srcSet={transformDTImg as string} />
+        <img
+          className=" w-full h-full object-cover"
+          src={transformMobImg as string}
+          alt=""
+        />
+      </picture>
+      <picture className="">
+        <source media="(min-width: 640px)" srcSet={standOutDTImg as string} />
+        <img
+          className=" w-full h-full object-cover"
+          src={standOutMobImg as string}
+          alt=""
+        />
+      </picture>
       <BrandDescription
         heading={"Standout to the right audience"}
         content={content[1]}
-        margin={"mr"}
+        placement={"right"}
       ></BrandDescription>
       <ProdDescription
         heading={"Graphic Design"}

@@ -25,12 +25,15 @@ module.exports = {
       },
       height: {
         100: "100rem",
+        "81vw": "81vw",
       },
       inset: {
         "43vw": "43vw",
       },
       fontSize: {
+        "8vw": "8vw",
         "11vw": "11vw",
+        "lg.5": "1.2rem",
         "4.5xl": "2.5rem",
       },
       lineHeight: {
@@ -39,6 +42,9 @@ module.exports = {
       margin: {
         "7vw": "7vw",
       },
+      order: {
+        unset: "unset",
+      },
     },
   },
   variants: {
@@ -46,6 +52,7 @@ module.exports = {
       textColor: ["active"],
       backgroundColor: ["active"],
       borderColor: ["active"],
+      fontSize: ["hover", "focus"],
     },
   },
   plugins: [],
