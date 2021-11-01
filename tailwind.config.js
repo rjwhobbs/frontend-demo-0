@@ -32,6 +32,7 @@ module.exports = {
         "grey-blue": "#57545F",
         "dark-green": "#172B2B",
         "photo-blue": "#112736",
+        "light-grey": "#505053",
       },
       height: {
         100: "100rem",
