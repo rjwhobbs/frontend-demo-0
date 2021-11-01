@@ -4,6 +4,7 @@ import Footer from "../Components/Footer";
 import MainTitle from "../Components/LandingComps/MainTitle";
 import BrandDescriptionCon from "../Components/LandingComps/BrandDescriptionCon";
 import TestimonialsCon from "../Components/LandingComps/TestimonialsCon";
+import Gallery from "../Components/LandingComps/Gallery";
 
 const Landing: FunctionComponent = () => {
   return (
@@ -12,6 +13,7 @@ const Landing: FunctionComponent = () => {
       <MainTitle></MainTitle>
       <BrandDescriptionCon></BrandDescriptionCon>
       <TestimonialsCon></TestimonialsCon>
+      <Gallery></Gallery>
       <Footer></Footer>
     </div>
   );
