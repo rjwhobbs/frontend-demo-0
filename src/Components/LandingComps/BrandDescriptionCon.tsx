@@ -46,10 +46,12 @@ const BrandDescriptionCon: FunctionComponent = () => {
       <ProdDescription
         heading={"Graphic Design"}
         content={content[2]}
+        placement={"left"}
       ></ProdDescription>
       <ProdDescription
         heading={"Photography"}
         content={content[3]}
+        placement={"right"}
       ></ProdDescription>
     </div>
   );
