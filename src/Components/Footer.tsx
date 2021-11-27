@@ -21,7 +21,7 @@ const Footer: FunctionComponent = () => {
             <span className="visually-hidden">Home</span>
           </Link>
         </li>
-        <ul className="mt-14 flex justify-evenly mx-30p">
+        <ul className="mt-14 flex justify-evenly mx-0 sm:mx-30p">
           <li className="inline">
             <Link className="text-dark-green" to="#">
               About
@@ -39,7 +39,7 @@ const Footer: FunctionComponent = () => {
           </li>
         </ul>
       </ul>
-      <ul className="pt-16 flex justify-evenly mx-35p">
+      <ul className="pt-16 flex justify-evenly mx-10p sm:mx-35p">
         <li>
           <Link to="#">
             <img aria-hidden src={fbIcon as string} alt="facebook" />
