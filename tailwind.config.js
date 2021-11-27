@@ -33,6 +33,8 @@ module.exports = {
         "dark-green": "#172B2B",
         "photo-blue": "#112736",
         "light-grey": "#505053",
+        "light-green": "#90D4C5",
+        "med-green": "#2C7566",
       },
       height: {
         100: "100rem",
@@ -53,6 +55,8 @@ module.exports = {
       margin: {
         "7vw": "7vw",
         "8vw": "8vw",
+        "30p": "30%",
+        "35p": "35%",
       },
       order: {
         unset: "unset",
