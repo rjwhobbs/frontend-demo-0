@@ -8,7 +8,7 @@ import Gallery from "../Components/LandingComps/Gallery";
 
 const Landing: FunctionComponent = () => {
   return (
-    <div className="bg-off-white sm:container mx-auto relative">
+    <div className="bg-off-white 2xl:container mx-auto relative">
       <Header></Header>
       <MainTitle></MainTitle>
       <BrandDescriptionCon></BrandDescriptionCon>
