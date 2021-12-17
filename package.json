@@ -6,7 +6,7 @@
     "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\"",
     "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\" --quiet",
     "dev": "parcel serve ./src/index.html",
-    "build": "parcel build ./src/index.html --public-url ./"
+    "build": "parcel build ./src/index.html --public-url ./ --dist-dir docs"
   },
   "repository": {
     "type": "git",
