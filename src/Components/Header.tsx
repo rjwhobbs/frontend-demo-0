@@ -37,7 +37,10 @@ const Header: FunctionComponent = () => {
               aria-controls="nav-dropdown"
             >
               <span className="visually-hidden">Menu</span>
-              <img src={hamburger as string} alt="" />
+              {/* <img src={hamburger as string} alt="" /> */}
+              <div className="h-5 w-6 border-red border-2 relative">
+                <span className="h-1 bg-white absolute left-0 w-full"></span>
+              </div>
             </button>
             <ul
               id="nav-dropdown"

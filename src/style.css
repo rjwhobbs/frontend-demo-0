@@ -12,14 +12,6 @@
   }
 }
 
-.triangle {
-  width: 0;
-  height: 0;
-  border-right: 20px solid white;
-  border-bottom: 20px solid transparent;
-  transform: rotate(90deg);
-}
-
 .visually-hidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -30,6 +22,16 @@
   position: absolute;
   width: 1px;
   white-space: nowrap;
+}
+
+/* Drop down classes */
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-right: 20px solid white;
+  border-bottom: 20px solid transparent;
+  transform: rotate(90deg);
 }
 
 .dropdown {
@@ -58,6 +60,8 @@
   right: 0;
 }
 
+/* Learn more links */
+
 .learn-more-line {
   height: 9px;
   background-color: #fdf5c4;
@@ -67,16 +71,3 @@
   z-index: 0;
   border-radius: 9999px;
 }
-
-/* .temp-link-underline {
-  background-image: linear-gradient(
-    to right,
-    rgb(253, 245, 196) 100%,
-    rgb(255, 255, 255) 0%
-  );
-  background-position: 0 96%;
-  background-repeat: repeat-x;
-  background-size: 100% 43%;
-  border-radius: 9999px;
-  padding-left: 0px;
-} */
