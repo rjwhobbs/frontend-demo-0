@@ -33,7 +33,7 @@ const Header: FunctionComponent = () => {
                 e.preventDefault();
                 handleMenuOpen();
               }}
-              aria-expanded={isMenuOpen ? true : false}
+              aria-expanded={isMenuOpen}
               aria-controls="nav-dropdown"
             >
               <span className="visually-hidden">Menu</span>
