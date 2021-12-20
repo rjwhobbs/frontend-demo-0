@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import headerDTImg from "url:../../public/images/desktop/image-header-dt.jpg";
 import headerMImg from "url:../../public/images/mobile/image-header.jpg";
 import logoWhite from "url:../../public/icons/logo-white.svg";
-import hamburger from "url:../../public/icons/icon-hamburger.svg";
+// import hamburger from "url:../../public/icons/icon-hamburger.svg";
 
 const Header: FunctionComponent = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -38,8 +38,10 @@ const Header: FunctionComponent = () => {
             >
               <span className="visually-hidden">Menu</span>
               {/* <img src={hamburger as string} alt="" /> */}
-              <div className="h-5 w-6 border-red border-2 relative">
-                <span className="h-1 bg-white absolute left-0 w-full"></span>
+              <div className="hamburger">
+                <span className="ham-line"></span>
+                <span className="ham-line"></span>
+                <span className="ham-line"></span>
               </div>
             </button>
             <ul
