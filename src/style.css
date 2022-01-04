@@ -10,10 +10,6 @@
   .nav-link-mob {
     @apply text-dark-blue text-lg pb-1 duration-100 border-transparent border-b-4 hover:border-dark-blue active:border-desat-blue active:text-desat-blue;
   }
-
-  .hamburger {
-    @apply relative h-5 w-7;
-  }
 }
 
 .visually-hidden {
@@ -78,20 +74,35 @@
 
 /* hamburger menu (See @applies above) */
 
+.hamburger {
+  position: relative;
+  height: 20px;
+  width: 28px;
+}
+
 .ham-line {
   height: 3px;
   width: 100%;
   position: absolute;
   background-color: #fff;
   left: 0;
+  transition: 0.2s;
 }
 
 .ham-line:nth-child(1) {
-  top: 0%;
+  top: 0px;
 }
 .ham-line:nth-child(2) {
-  top: 50%;
+  top: 10px;
 }
 .ham-line:nth-child(3) {
-  top: 100%;
+  top: 20px;
+}
+
+.open-ham-menu.hamburger .ham-line:nth-child(1) {
+  transform: translateY(10px);
+}
+
+.open-ham-menu.hamburger .ham-line:nth-child(3) {
+  transform: translateY(-10px);
 }
